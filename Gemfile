@@ -8,6 +8,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 
+
 group :development do
   gem 'byebug'
   gem 'web-console'
@@ -18,6 +19,9 @@ end
 group :test, :development do
   gem 'rspec-rails'
   gem 'launchy'
+  gem 'pry', '~> 0.10.1'
+  gem 'pry-doc', '~> 0.8.0'
+  gem 'pry-rails'
 end
 
 group :test do
